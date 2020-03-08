@@ -1,0 +1,15 @@
+<Context path="/" debug="0" useHttpOnly="true">
+
+<ResourceLink name="jdbc/csbPrepaidProdDataSourcePri" global="csbprepaid.DataSource1" type="javax.sql.DataSource"/>
+<ResourceLink name="jdbc/csbPrepaidProdDataSourceSec" global="csbprepaid.DataSource2" type="javax.sql.DataSource"/>
+
+
+<!-- <Resource name="jdbc/prepaidProdDataSourcePri" accessToUnderlyingConnectionAllowed="true" auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="in.spicedigital.datasource.CustDataSourceFactory" maxActive="10" maxIdle="2" maxWait="10000" url="jdbc:oracle:thin:@192.168.147.16:1610:mcomnd1" username="XTHlh5XzNcA=" password="dcsgbRXx0v2l3xH26VlPcw=="/> -->
+<!-- <Resource name="jdbc/prepaidProdDataSourceSec" accessToUnderlyingConnectionAllowed="true"  auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="in.spicedigital.datasource.CustDataSourceFactory" maxActive="10" maxIdle="2" maxWait="10000" url="jdbc:oracle:thin:@192.168.147.18:1610:mcomnd2" username="XTHlh5XzNcA=" password="dcsgbRXx0v2l3xH26VlPcw=="/> -->
+
+
+<!-- <Resource name="jdbc/prepaidProdDataSourcePri" accessToUnderlyingConnectionAllowed="true" auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="in.spicedigital.datasource.CustDataSourceFactory" maxActive="10" maxIdle="2" maxWait="10000" url="jdbc:oracle:thin:@192.168.247.61:1610:mcomv" username="XTHlh5XzNcA=" password="dcsgbRXx0v2l3xH26VlPcw=="/> -->
+<!-- <Resource name="jdbc/prepaidProdDataSourceSec" accessToUnderlyingConnectionAllowed="true"  auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="in.spicedigital.datasource.CustDataSourceFactory" maxActive="10" maxIdle="2" maxWait="10000" url="jdbc:oracle:thin:@192.168.247.61:1610:mcomv" username="XTHlh5XzNcA=" password="dcsgbRXx0v2l3xH26VlPcw=="/> -->
+
+</Context>
+
